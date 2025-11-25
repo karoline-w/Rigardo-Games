@@ -1,0 +1,326 @@
+/* 
+.imagensmenores{
+    flex-direction: row;
+    align-items: center;
+    width: 30%;
+    padding: 20px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+    padding-top: 30px;
+} */
+
+*{
+    margin: 0;
+}
+
+:root{
+    --cor-header: rgb(60, 5, 5);
+    --cor-header2: rgb(87, 9, 9);
+    --cor-footer: rgb(60, 5, 5);
+    --cor-texto: white;
+}
+
+body{
+    background-image: linear-gradient(rgb(35, 33, 33), rgb(21, 19, 19));/*faz com que fique em gradiente*/
+}
+
+.logo{
+    padding-right: 10px; /*espaço(margem) para a direita*/
+}
+
+.header{
+    background-color: var(--cor-header);
+    width: 100;
+    color: var(--cor-texto);
+    padding:30px 45px 30px 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div1header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 80px;  
+}
+
+.div2header{
+    display: flex;
+    height: 35px;
+    justify-items: center;
+    align-content: center;
+}
+
+nav{
+    align-self: center;
+}
+
+.rg{
+    font-family: "Special Gothic Condensed One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    text-decoration: none; 
+    color: var(--cor-texto);
+    display: flex;
+    flex-direction: row;
+    transition: color 0.3s ease-in; /*faz com que a "animação" fica mais lenta*/
+    transition: color 0.3s ease-out;
+}
+
+.rg:hover{
+    color: rgb(216, 203, 203);
+}
+
+.botoesheader1{
+    text-decoration: none;
+    color: var(--cor-texto);
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px rgb(168, 2, 2) solid;
+    border-radius: 5px; /* canto da borda redondo*/
+    background-color: rgb(168, 2, 2);
+    padding: 5px 5px;
+}
+
+.titulo{
+    display: flex;
+    align-items: center;
+}
+
+.header2{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--cor-header2);
+    height: 35px;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0px;
+}
+
+.he2escritas{
+    text-decoration: none;
+    color: var(--cor-texto);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+    transition: color 0.3s ease-in;
+    transition: color 0.3s ease-out;
+    transition: font-size 0.3s ease-in;
+    transition: font-size 0.3s ease-out;
+}
+
+.he2escritas:hover{
+    color: rgb(190, 178, 178);
+    font-size: 16px;
+}
+
+/*main*/
+.hum{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--cor-texto);
+    margin: 0px 35px;
+    padding: 20px 10px;
+    text-shadow: 2px 2px black;
+}
+
+.hdois{
+    color: var(--cor-texto);
+    padding: 20px 10px;
+    font-size: 20px;
+    margin: 0px 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px black;/*sombra preta, 2px para direita, 2px para baixo*/
+}
+
+.destaqueh2{
+    color: var(--cor-texto);
+    padding: 20px 10px;
+    padding-top: 30px;
+    font-size: 35px;
+    margin: 0px 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px black;
+}
+
+.destaques{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 90px;
+}
+
+
+.imgdestaque:hover{
+    transform: scale(1.05);/*hover que faz o aumento na img acontecer*/
+}
+
+
+.imgs:hover{
+    transform: scale(1.1);
+}
+
+.shooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+
+.p{
+    color: var(--cor-texto);
+    display: flex;
+    align-self: flex-end;
+    text-decoration: none;
+    color: rgb(244,188,188);
+}
+
+.terror{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+
+.acao{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+
+.sobrevivencia{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+
+.rpg{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+
+.rv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+
+.promocoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    row-gap: 40px;
+    padding-bottom: 50px;
+}
+
+.gratis{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    row-gap: 40px;
+    padding-bottom: 70px;
+}
+
+.footer{
+    background-color: var(--cor-footer);
+    color: var(--cor-texto);
+    padding: 20px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-items: center;}
+
+/* .imagensmenores{
+    transition: transform 0.5s ease-in-out;
+    filter: drop-shadow(0 0 1rem black);
+}
+
+.imagensmenores:hover{
+    transform: scale(1.1);
+} */
+
+.h1{ 
+    font-size: 40px;
+    color: var(--cor-texto);
+    margin: 0px 10px;
+    padding: 20px 10px;
+    text-shadow: 2px 2px black; 
+}
+   
+
+.h2{
+    color: var(--cor-texto);
+    padding: 20px 10px;
+    padding-top: 50px;
+    font-size: 35px;
+    margin: 0px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px black;
+}
+
+.h3{
+    color: var(--cor-texto);
+    padding: 20px 10px;
+    padding-top:50px;
+    font-size: 35px;
+    margin: 0px 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px black;
+    text-decoration: none;
+}
+
+.as{
+    background-color: var(--cor-header2);
+    transition: transform 0.3s ease-in-out; 
+    padding: 10px;
+    text-decoration: none;
+}
+
+.as:hover{
+    transform: scale(1.05);
+    text-decoration: none;
+}
+
+.imagens{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px 2%;
+    justify-content: space-around;
+    
+
+}
+
+.imagens p{
+    
+    /*color: white;*/
+    font-family: Arial, Helvetica, sans-serif;
+     color: rgb(244,188,188);
+}
+
+h3{
+    
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dois{
+    display: flex;
+    flex-direction : row ;
+    justify-content : space-between ;
+    align-items : center ;
+}
+
+.tres{
+    align-self: center ; /* se auto-alinhar*/
+}
+

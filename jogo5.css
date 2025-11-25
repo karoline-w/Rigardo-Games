@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+}
+
+body {
+    background-color: rgb(35, 33, 33);
+}
+
+:root {
+    --cor_fundo: black;
+    --cor_letra: white;
+    --cor_fundo_site: white;
+    --cor_animação: gray;
+    --cor_borda: black;
+    --cor_letra_botao: black;
+    --cor_header: #ba0000;
+    --cor_border_jogos: white;
+    --cor-header: rgb(60, 5, 5);
+    --cor-header2: rgb(87, 9, 9);
+    --cor-footer: rgb(60, 5, 5);
+    --cor-texto: white;
+}
+
+h1 {
+    color: azure;
+    font-size: 25px;
+    text-align: center;
+    margin: 14px;
+    padding: 10px;
+}
+
+.p {
+    color: azure;
+    font-size: 20px;
+    text-align: center;
+}
+
+.margem {
+    padding: 50px;
+    margin: 50px;
+
+}
+
+.imagens {
+    margin: 40px;
+    padding: 14px;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.container img {
+    margin: 40px;
+    padding: 14px;
+    display: flex;
+    float: right;
+    margin-left: 15px;
+
+}
+
+.header {
+    background-color: var(--cor-header);
+    width: 100;
+    height: 80px;
+    color: var(--cor-texto);
+    padding: 30px 45px 30px 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div1header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.rg {
+    font-family: "Special Gothic Condensed One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    text-decoration: none;
+    color: var(--cor-texto);
+    display: flex;
+    flex-direction: row;
+    transition: color 0.3s ease-in;
+    transition: color 0.3s ease-out;
+}
+
+.rg:hover {
+    color: rgb(216, 203, 203);
+}
+
+.logo{
+    padding-right: 10px;
+}
+
+.botoesheader1 {
+    text-decoration: none;
+    color: var(--cor-texto);
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px rgb(168, 2, 2) solid;
+    border-radius: 5px;
+    background-color: rgb(168, 2, 2);
+    padding: 5px 5px;
+}
+
+.header2 {
+    background-color: var(--cor-header2);
+    width: 100;
+    height: 35px;
+    justify-items: center;
+    padding: 15px 0px 15px 0px;
+    align-content: center;
+}
+
+.he2escritas {
+    text-decoration: none;
+    color: var(--cor-texto);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+    transition: color 0.3s ease-in;
+    transition: color 0.3s ease-out;
+    transition: font-size 0.3s ease-in;
+    transition: font-size 0.3s ease-out;
+}
+
+.he2escritas:hover {
+    color: rgb(190, 178, 178);
+    font-size: 16px;
+}
+
+/*main*/
+.hum {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--cor-texto);
+    margin: 0px 35px;
+    padding: 20px 10px;
+    text-shadow: 2px 2px black;
+}
+
+.hdois {
+    color: var(--cor-texto);
+    padding: 20px 10px;
+    font-size: 20px;
+    margin: 0px 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px black;
+    /*sombra preta, 2px para direita, 2px para baixo*/
+}
+
+.destaqueh2 {
+    color: var(--cor-texto);
+    padding: 20px 10px;
+    padding-top: 30px;
+    font-size: 35px;
+    margin: 0px 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px black;
+}
+
+.botoesheader1 {
+    text-decoration: none;
+    color: var(--cor-texto);
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px rgb(168, 2, 2) solid;
+    border-radius: 5px;
+    background-color: rgb(168, 2, 2);
+    padding: 5px 5px;
+}
+
+:root {
+    --cor-header: rgb(60, 5, 5);
+    --cor-header2: rgb(87, 9, 9);
+    --cor-footer: rgb(60, 5, 5);
+    --cor-texto: white;
+}
+
+/*-------------------------------------------------------------------------------Carrossel---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.Carrossel {
+    height: 100%;
+    width: 1300px;
+    overflow-x: auto;
+    /* usado para fazer uma barra de scroll (x é para os lados e Y é para cima e para baixo) */
+    margin: 50px auto;
+    display: flex;
+    gap: 3em;
+    scroll-behavior: smooth;
+    /* para controlar como acontece em um pagina ou elemento rolavel (smooth torna a rolagem suave*/
+    position: relative;
+    /* serve para posicionar um elemento em relaçao a sua posiçao original*/
+    scroll-snap-type: x mandatory;
+    /* ativa o ajuste de rolagem( x mandatory, o x é o eixo e o mandatory torna esse ajuste obrigatorio*/
+    overflow: hidden;
+    /* serve para  ocultar qualquer conteudo que ultrapasse a borda */
+}
+
+.Carrossel::-webkit-scrollbar
+
+/* usado para mudar a aprencia da barra de rolagem criada*/
+    {
+    display: none;
+    /* retira a barra de rolagem */
+}
+
+.Carrossel::scroll-button(right) {
+    content: '🢂';
+    /* content é usado para inserir uma caractere*/
+    border: none;
+    background-color: var(--cor_borda);
+    color: white;
+    height: 55px;
+    width: 60px;
+    border-radius: 50%;
+    padding-bottom: 1px;
+    cursor: pointer;
+    /* usado para quando o mouse passar por cima do elemento aparecer a maozinha, indicando que i item é clicavel*/
+    position: absolute;
+    /* serve para posicionar um elemento de forma absoluta */
+    top: 77%;
+    right: 0;
+}
+
+.Carrossel::scroll-button(right):disabled {
+    opacity: 0.5;
+}
+
+.Carrossel::scroll-button(left) {
+    content: '🢀';
+    /* content é usado para inserir uma caractere*/
+    border: none;
+    background-color: var(--cor_borda);
+    color: white;
+    height: 55px;
+    width: 60px;
+    border-radius: 50%;
+    padding-bottom: 1px;
+    cursor: pointer;
+    /* usado para quando o mouse passar por cima do elemento aparecer a maozinha, indicando que i item é clicavel*/
+    position: absolute;
+    /* serve para posicionar um elemento de forma absoluta */
+    top: 77%;
+    left: 0;
+}
+
+.Carrossel::scroll-button(left):disabled {
+    opacity: 0.5;
+}
+
+.card {
+    display: flex;
+    scroll-snap-align: start;
+    /* serve para que no final da rolagem o elemento filho se alinhara com o inicio do conteiner da rolagem */
+    flex: 0 0 650px;
+    height: 600px;
+    background-color: var(--cor-header);
+    text-align: center;
+    align-content: center;
+    /* centraliza horizontalmente os itens quando a espaço extra */
+    align-items: center;
+}
+
+.falei {
+    padding-left: 86px;
+    padding-right: 70px;
+}

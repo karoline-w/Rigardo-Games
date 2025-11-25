@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+}
+
+:root{
+    --cor-header: rgb(60, 5, 5);
+    --cor-header2: rgb(87, 9, 9);
+    --cor-footer: rgb(60, 5, 5);
+    --cor-texto: white;
+}
+
+body{
+    background-image: linear-gradient(rgb(35, 33, 33), rgb(21, 19, 19));/*com esse codigo o fundo fica em gradiente(duas cores cores"esfumaçado")*/
+}
+
+.logo{
+    padding-right: 10px;/*a imagem teve um distancia do nome do site de 10px, ou seja, é um espaçmento para direita*/
+}
+
+nav{ /*para que as nav's ficassem centralizadas verticalmente*/
+    align-self: center; /*a imagem ou escrita se alinhou no centro*/
+}
+
+.header{
+    background-color: var(--cor-header);
+    width: 100;
+    color: var(--cor-texto);
+    padding:30px 45px 30px 45px;
+    display: flex;
+    flex-direction: row; /*as escritas ou imagens ficaram alinhadas em linha*/
+    justify-content: space-between;/*colocou um espaço entre a logo/escrita e os botoes*/
+    align-items: center; /*colocou a logo, o nome do site e os botoes de entrar e cadastrar-se no meio do header1*/
+}
+
+.div1header{ /*primeiro div com a logo e nome do site*/
+    display: flex;
+    flex-direction: row;/*os alinhou emm linha*/
+    align-items: center;/*colocou no centro*/
+    height: 80px; /*colocou uma heigth de 80px pq se n a heigth do header iria influenciar e deixar mto grande*/
+}
+
+.div2header{ /*segunda div com os botoes de entrar e cadastra-se*/
+    display: flex;
+    height: 35px;/*apenas deu um tamanho para esses botoes*/
+    justify-items: center;
+    align-content: center;
+}
+
+.rg{ /*nome do site*/
+    font-family: "Special Gothic Condensed One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    text-decoration: none;/*para tirar o sublinhado que tem no nome por que ele esta dentro de uma <a> logo é como se fosse um "link"*/
+    color: var(--cor-texto);
+    display: flex;
+    flex-direction: row;
+    transition: color 0.3s ease-in;/*foi usado para fazer a animação com o hover, foi colocado aqui para o hover saber onde mexer e o q*/
+    transition: color 0.3s ease-out;/*nesse caso é a animação de mudar de cor*/
+}
+
+.rg:hover{ /*animação de mudar de cor do nome do site*/
+    color: rgb(216, 203, 203);
+}
+
+.botoesheader1{ /*entrar e cadastrar*/
+    text-decoration: none;
+    color: var(--cor-texto);
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px rgb(168, 2, 2) solid;/*borda*/
+    border-radius: 5px;/*arredonda a borda*/
+    background-color: rgb(168, 2, 2);/*cor de fundo da escrita*/
+    padding: 5px 5px;/*distancia entre a escrita e a borda*/
+}
+
+.header2{ /*posição da escritas biblioteca, categorias e novidades*/
+    display: flex;
+    flex-direction: row;
+    background-color: var(--cor-header2);
+    height: 35px;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0px;/*distancia de cima e de baixo das escritas*/
+}
+
+.he2escritas{ /*biblioteca, categorias e novidades*/
+    text-decoration: none;
+    color: var(--cor-texto);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding-right: 20px;/*distancia na direita*/
+    padding-left: 20px;/*diatancia na esquerda*/
+    transition: color 0.3s ease-in;/*animaçao de mudar de cor*/
+    transition: color 0.3s ease-out;
+    transition: font-size 0.3s ease-in;/*animaçao de mudar o tamanho*/
+    transition: font-size 0.3s ease-out;
+}
+
+.he2escritas:hover{ /*animação desses botões*/
+    color: rgb(190, 178, 178);
+    font-size: 16px;
+}
+
+/*-----------------------------------------------------------------main--------------------------------------------------------------------------------------------------------*/
+.hum{ /*h1(titulo: CATEGORIAS)*/
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--cor-texto);
+    margin: 0px 35px;/*alem do padding tem a margin na direita e na esquerda*/
+    padding: 20px 10px;
+    text-shadow: 2px 2px black;/*sombra na escrita*/
+}
+
+.hdois{ /*as categorias*/
+    color: var(--cor-texto);
+    padding: 20px 10px;
+    font-size: 20px;
+    margin: 0px 35px;/*tmb foi colocado margim para ficar alinhado com o titulo de cima*/
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px black;/*sombra preta, 2px para direita, 2px para baixo*/
+}
+
+.destaqueh2{ /*DESTAQUES (escrita)*/
+    color: var(--cor-texto);
+    padding: 20px 10px;
+    padding-top: 30px;
+    font-size: 35px;
+    margin: 0px 35px;/*margem para alinhar com o titulo de cima*/
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px black;/*sombra na escrita*/
+}
+
+.destaques{ /*tds as escritas e imgs*/
+    display: flex;
+    flex-direction: row;/*alinhado em linha*/
+    justify-content: space-around;/*distancia entre as imgs*/
+    padding-bottom: 90px;/*distancia na parte de baixo da img*/
+    color: var(--cor-texto);
+    text-decoration: none;/*tirou o sublinhado da escrita*/
+}
+
+.as{ /*class/div usada para fazer as "legendas" com os preços das imagens*/
+    background-color: var(--cor-header2);
+    transition: transform 0.3s ease-in-out;/*transiçao para mudar o tamnho da img quando passa o mouse por cima*/
+    filter: drop-shadow(0 0 1rem black);/*sombra nas imgs*/
+    color: var(--cor-texto);
+    text-decoration: none;/*tirar o sublinhado*/
+    padding: 10px;/*colocou borda*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.as:hover{ /*animação*/
+    transform: scale(1.05);
+}
+
+/*-------------------------------------------------------classificação de idade-------------------------------------------------------------------*/
+.um{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.tres{
+    align-self: center;
+}
+/*------------------------------------------------------------------------------------------------------------------------------------*/
+
+.shooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+
+p{/*preços dos jogos*/
+    color: var(--cor-texto);
+    display: flex;
+    font-size: 15px;
+    color:rgb(244, 188, 188);
+}
+
+/*------------------------------------------------------------parte chata das promos-------------------------------------------------------------------------*/
+.ppromoescrita{ /*tds as escritas da promo (ppromooriginal, ppromoporcentagem e strong)*/
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: baseline;/*alinha o valor original q parecia estar mais para cima do q deveria, assim alinhado-o coom o resto*/
+}
+
+.ppromooriginal{ /*valor original (sem a promo)*/
+    color: rgb(187, 71, 71);
+}
+
+.ppromoporcentagem{ /* porcentagem de promo*/
+    background-color: red;/*fundo da escrita*/
+    border: 3px red solid;/*borda*/
+    border-radius: 10px;/*arredonda borda*/
+    padding-inline: 5px;/*padding dentro da borda*/
+}
+
+strong{ /*valor com promo*/
+    font-size: 17px;
+    color: rgb(247, 113, 113);
+}
+/*-----------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*--------------------------------------------categorias-----------------------------------------------------------------------------------------------*/
+.terror{
+    display: flex;
+    flex-direction: row;/*deixa em linha*/
+    justify-content: space-around;/*espaço entre as imgs, mas fica um espaço menor entre as imgs e o fina da tela do not doq eu entre as imgs*/
+    padding-bottom: 50px;
+}
+
+.acao{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+
+.sobrevivencia{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+
+.rpg{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+
+.rv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+
+.promocoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    row-gap: 40px;/*adiciona distancia entre as imags da promoçao verticalmente, entre linhas, não imgs*/
+    padding-bottom: 50px;
+}
+
+.gratis{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    row-gap: 40px;
+    padding-bottom: 70px;/*diatancia entre as imgs do GRATIS e o footer*/
+}
+
+.footer{
+    background-color: var(--cor-footer);
+    color: var(--cor-texto);
+    padding: 15px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-items: center;}
