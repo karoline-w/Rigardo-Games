@@ -166,12 +166,13 @@ p {
 }
 
 .imagemdothelast:hover {
-  transform: scale(1.1);
+  transform: scale(1.05); /*antes era (1.1)*/
 }
 
 
 .os2juntos {
   display: flex;
+  padding-bottom: 50px;
 }
 
 .thelastofus {
@@ -208,6 +209,7 @@ p {
 .nomedosjogos {
   background-color: rgb(50, 50, 50);
 }
+
 @media(max-width: 600px){
   .thelastofus{
   aspect-ratio: 1/2;
@@ -234,3 +236,11 @@ p {
   font-size: 70%
 }
 }
+
+.footer{
+    background-color: var(--cor-footer);
+    color: var(--cor-texto);
+    padding: 15px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-items: center;}

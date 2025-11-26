@@ -147,14 +147,6 @@ nav{
     text-shadow: 2px 2px black;
 }
 
-.destaques{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding-bottom: 90px;
-}
-
-
 .imgdestaque:hover{
     transform: scale(1.05);/*hover que faz o aumento na img acontecer*/
 }
@@ -164,72 +156,12 @@ nav{
     transform: scale(1.1);
 }
 
-.shooter{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding-bottom: 50px;
-}
-
 .p{
     color: var(--cor-texto);
     display: flex;
     align-self: flex-end;
     text-decoration: none;
     color: rgb(244,188,188);
-}
-
-.terror{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding-bottom: 50px;
-}
-
-.acao{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding-bottom: 50px;
-}
-
-.sobrevivencia{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding-bottom: 50px;
-}
-
-.rpg{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding-bottom: 50px;
-}
-
-.rv{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding-bottom: 50px;
-}
-
-.promocoes{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    row-gap: 40px;
-    padding-bottom: 50px;
-}
-
-.gratis{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    row-gap: 40px;
-    padding-bottom: 70px;
 }
 
 .footer{
@@ -257,11 +189,9 @@ nav{
     text-shadow: 2px 2px black; 
 }
    
-
 .h2{
     color: var(--cor-texto);
     padding: 20px 10px;
-    padding-top: 50px;
     font-size: 35px;
     margin: 0px 10px;
     font-family: Arial, Helvetica, sans-serif;
@@ -296,19 +226,15 @@ nav{
     flex-wrap: wrap;
     gap: 30px 2%;
     justify-content: space-around;
-    
-
+    padding-bottom: 70px;
 }
 
 .imagens p{
-    
-    /*color: white;*/
     font-family: Arial, Helvetica, sans-serif;
      color: rgb(244,188,188);
 }
 
 h3{
-    
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -323,4 +249,3 @@ h3{
 .tres{
     align-self: center ; /* se auto-alinhar*/
 }
-
