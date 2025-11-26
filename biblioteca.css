@@ -169,7 +169,6 @@ p {
   transform: scale(1.05); /*antes era (1.1)*/
 }
 
-
 .os2juntos {
   display: flex;
   padding-bottom: 50px;
@@ -208,6 +207,22 @@ p {
 
 .nomedosjogos {
   background-color: rgb(50, 50, 50);
+  text-decoration: none;
+  color: var(--cor-texto);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  transition: color 0.3s ease-in;
+  transition: color 0.3s ease-out;
+  transition: font-size 0.3s ease-in;
+  transition: font-size 0.3s ease-out;
+  transition: padding-left 0.3s ease-in;
+  transition: padding-left 0.3s ease-out;
+}
+
+.nomedosjogos:hover{
+  color: rgb(241, 136, 136);
+  font-size: 21px;
+  padding-left: 70px;
 }
 
 @media(max-width: 600px){
