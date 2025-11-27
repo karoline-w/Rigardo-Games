@@ -118,45 +118,10 @@ nav{
     font-size: 16px;
 }
 
-/*main*/
-.hum{
-    font-size: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: var(--cor-texto);
-    margin: 0px 35px;
-    padding: 20px 10px;
-    text-shadow: 2px 2px black;
-}
-
-.hdois{
-    color: var(--cor-texto);
-    padding: 20px 10px;
-    font-size: 20px;
-    margin: 0px 35px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-shadow: 2px 2px black;/*sombra preta, 2px para direita, 2px para baixo*/
-}
-
-.destaqueh2{
-    color: var(--cor-texto);
-    padding: 20px 10px;
-    padding-top: 30px;
-    font-size: 35px;
-    margin: 0px 35px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-shadow: 2px 2px black;
-}
-
-.imgdestaque:hover{
-    transform: scale(1.05);/*hover que faz o aumento na img acontecer*/
-}
+/*--------------------------------------------main------------------------------------------------------------------------*/
 
 
-.imgs:hover{
-    transform: scale(1.1);
-}
-
-.p{
+.p{/*precos*/
     color: var(--cor-texto);
     display: flex;
     align-self: flex-end;
@@ -172,24 +137,9 @@ nav{
     font-family: Arial, Helvetica, sans-serif;
     justify-items: center;}
 
-/* .imagensmenores{
-    transition: transform 0.5s ease-in-out;
-    filter: drop-shadow(0 0 1rem black);
-}
 
-.imagensmenores:hover{
-    transform: scale(1.1);
-} */
-
-.h1{ 
-    font-size: 40px;
-    color: var(--cor-texto);
-    margin: 0px 10px;
-    padding: 20px 10px;
-    text-shadow: 2px 2px black; 
-}
    
-.h2{
+.h2{/*LANÇAMENTOS E EM BREVE*/
     color: var(--cor-texto);
     padding: 20px 10px;
     font-size: 35px;
@@ -198,7 +148,7 @@ nav{
     text-shadow: 2px 2px black;
 }
 
-.h3{
+.h3{/*nome dos jogos tbm*/
     color: var(--cor-texto);
     padding: 20px 10px;
     padding-top:50px;
@@ -221,7 +171,7 @@ nav{
     text-decoration: none;
 }
 
-.imagens{
+.imagens{/*tds as imgs*/
     display: flex;
     flex-wrap: wrap;
     gap: 30px 2%;
@@ -229,16 +179,17 @@ nav{
     padding-bottom: 70px;
 }
 
-.imagens p{
+p{/*preço*/
     font-family: Arial, Helvetica, sans-serif;
      color: rgb(244,188,188);
 }
 
-h3{
+h3{/*nome dos jogos*/
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/*------------------------------------CLASSIFICAÇÃO---------------------------------------------------------------------------*/
 .dois{
     display: flex;
     flex-direction : row ;

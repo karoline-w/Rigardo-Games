@@ -49,24 +49,6 @@ body {
   align-items: center;
 }
 
-.jogos {
-  background-color: rgb(57, 57, 57);
-  height: 605px;
-  width: 500px;
-}
-
-.biblioteca {
-  margin-top: 0px;
-  background-color: rgb(151, 0, 0);
-  height: 90px;
-  width: 100%;
-}
-
-.add {
-  display: flex;
-  gap: 280px;
-}
-
 .logo {
   padding-right: 10px;
 }
@@ -135,15 +117,34 @@ body {
   color: rgb(190, 178, 178);
   font-size: 16px;
 }
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------n sei---------------------------*/
+.jogos {
+  background-color: rgb(57, 57, 57);
+  height: 605px;
+  width: 500px;
+}
 
-h1 {
+.biblioteca {
+  margin-top: 0px;
+  background-color: rgb(151, 0, 0);
+  height: 90px;
+  width: 100%;
+}
+
+.add {
+  display: flex;
+  gap: 280px;
+}
+/*------------------------------------------------------------------*/
+h1 {/*CADASTRAR*/
   color: var(--cor_letra);
   text-align: center;
   font-size: 65px;
   margin-top: 35px;
 }
 
-h2 {
+h2 {/*USUARIO E SENHA*/
   color: var(--cor_letra);
   font-size: 35px;
   margin-top: 18px;
@@ -153,8 +154,8 @@ h3 {
   color: var(--cor_letra);
 }
 
-.entrar {
-  margin-left: 550px;
+.entrar { /*quadrado de cadastrar*/
+  justify-self: center;
   margin-top: 1%;
   text-align: center;
   background-color: rgb(57, 0, 0);
@@ -163,11 +164,11 @@ h3 {
   height: 405px;
 }
 
-.suasenha {
+.suasenha {/*separa o botao de entrar e a barra de colocar a senha*/
   margin-bottom: 50px;
 }
 
-.Cadastrar {
+.Cadastrar {/*botao de entrar*/
   color: var(--cor_letra);
   color: black;
   font-size: 25px;
@@ -176,6 +177,6 @@ h3 {
   text-decoration: none;
 }
 
-input {
+input {/*barras*/
   height: 20px;
 }
