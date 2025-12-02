@@ -206,33 +206,69 @@ p {
 
 /*-----------------------------------------responsivo------------------------------------------------------------*/
 
-@media(max-width: 600px){
-  .thelastofus{
-  aspect-ratio: 1/2;
+@media(max-width: 700px) {
+  .textosdabiblioteca {
+    height: 100vw;
+    
   }
-  .textonenhumjogo{/*jogos*/
-    margin-left: 10%;
-    aspect-ratio: 1/0.1
-  }
-  .textosdabiblioteca{/*textos*/
-    width: 180%;
-    height: 296px;
-  }
-  h3{/*nomes dos jogos*/
-    font-size: 15px;
-  }
-  h1{/*título BIBLIOTECA*/
-    font-size: 25px;
-  }
-  .pesquisar {/*barra de pesquisa*/
-  display: flex;
-  margin-left: 18%;
-  margin-top: 3%;
-  border-radius: 10px;
-  font-size: 70%
-}
-}/*-----------------------------------FINAL DO MAIN----------------------------------------------------------------------------*/
 
+  .imagemdothelast {
+    width: 100%;
+
+  }
+
+  .he2escritas {
+    font-size: 4vw;
+  }
+
+  .rg {
+    font-size: 7vw;
+  }
+
+  .entrar {
+    width: 50%;
+    height: 120;
+  }
+
+  h1 {
+    font-size: 7vw;
+  }
+
+  h2 {
+    font-size: 4vw;
+  }
+
+  h3 {
+    font-size: 3.9vw;
+
+  }
+
+  input {
+    font-size: 1vw;
+    height: 4vw;
+    width: 33vw;
+
+  }
+
+  .header {
+    font-size: 2vw;
+  }
+
+  a {
+    font-size: 2vw;
+  }
+
+  .logo {
+    width: 18vw;
+    height: 18vw;
+  }
+
+  .lupa {
+    height: 5vw;
+    width: 5vw;
+  }
+}
+/*-----------------------------------FINAL DO MAIN----------------------------------------------------------------------------*/
 .footer{
     background-color: var(--cor-footer);
     color: var(--cor-texto);

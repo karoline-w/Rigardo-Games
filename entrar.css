@@ -193,3 +193,45 @@ input {
 .botaodeentrar {
   margin-top: 15px;
 }
+
+@media(max-width: 600px) {
+  .he2escritas {
+    font-size: 4vw;
+  }
+
+  .rg {
+    font-size: 7vw;
+  }
+
+  .entrar {
+    width: 50%;
+    height: 100vw;
+  }
+
+  h1 {
+    font-size: 10vw;
+  }
+
+  h2 {
+    font-size: 5vw;
+  }
+
+  input {
+    font-size: 3vw;
+    height: 3vw;
+    width: 30vw;
+  }
+
+  .header {
+    font-size: 2vw;
+  }
+
+  a {
+    font-size: 2vw;
+  }
+
+  .logo {
+    width: 25vw;
+    height: 25vw;
+  }
+}

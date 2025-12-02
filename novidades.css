@@ -200,3 +200,37 @@ h3{/*nome dos jogos*/
 .tres{
     align-self: center ; /* se auto-alinhar*/
 }
+
+@media(max-width: 600px) {
+
+    .he2escritas {
+        font-size: 4vw;
+    }
+
+
+    .rg {
+        font-size: 7vw;
+    }
+
+    h1 {
+        font-size: 7vw;
+    }
+
+    h2 {
+        font-size: 4vw;
+    }
+
+    h3 {
+        font-size: 3.9vw;
+
+    }
+
+    .header {
+        font-size: 2vw;
+    }
+
+    .logo {
+        width: 18vw;
+        height: 18vw;
+    }
+}
