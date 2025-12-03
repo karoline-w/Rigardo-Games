@@ -269,10 +269,3 @@ p {
   }
 }
 /*-----------------------------------FINAL DO MAIN----------------------------------------------------------------------------*/
-.footer{
-    background-color: var(--cor-footer);
-    color: var(--cor-texto);
-    padding: 15px;
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    justify-items: center;}

@@ -137,6 +137,7 @@ nav{ /*para que as nav's ficassem centralizadas verticalmente*/
     padding-bottom: 90px;/*distancia na parte de baixo da img*/
     color: var(--cor-texto);
     text-decoration: none;/*tirou o sublinhado da escrita*/
+    flex-wrap: wrap;
 }
 
 .as{ /*class/div usada para fazer as "legendas" com os preços das imagens*/
@@ -171,6 +172,7 @@ nav{ /*para que as nav's ficassem centralizadas verticalmente*/
     flex-direction: row;
     justify-content: space-around;
     padding-bottom: 50px;
+    flex-wrap: wrap;
 }
 
 p{/*preços dos jogos*/
@@ -211,6 +213,7 @@ strong{ /*valor com promo*/
     flex-direction: row;/*deixa em linha*/
     justify-content: space-around;/*espaço entre as imgs, mas fica um espaço menor entre as imgs e o fina da tela do not doq eu entre as imgs*/
     padding-bottom: 50px;
+    flex-wrap: wrap;
 }
 
 .acao{
@@ -218,6 +221,7 @@ strong{ /*valor com promo*/
     flex-direction: row;
     justify-content: space-around;
     padding-bottom: 50px;
+    flex-wrap: wrap;
 }
 
 .sobrevivencia{
@@ -225,6 +229,7 @@ strong{ /*valor com promo*/
     flex-direction: row;
     justify-content: space-around;
     padding-bottom: 50px;
+    flex-wrap: wrap;
 }
 
 .rpg{
@@ -232,6 +237,7 @@ strong{ /*valor com promo*/
     flex-direction: row;
     justify-content: space-around;
     padding-bottom: 50px;
+    flex-wrap: wrap;
 }
 
 .rv{
@@ -239,6 +245,7 @@ strong{ /*valor com promo*/
     flex-direction: row;
     justify-content: space-around;
     padding-bottom: 50px;
+    flex-wrap: wrap;
 }
 
 .promocoes{
@@ -267,7 +274,7 @@ strong{ /*valor com promo*/
     font-family: Arial, Helvetica, sans-serif;
     justify-items: center;}
 
-    @media(max-width: 600px) {
+@media(max-width: 600px) {
 
   .he2escritas {
     font-size: 4vw;
