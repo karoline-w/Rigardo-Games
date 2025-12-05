@@ -87,7 +87,7 @@ nav{ /*para que as nav's ficassem centralizadas verticalmente*/
     text-decoration: none;
     color: var(--cor-texto);
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 17px;
     padding-right: 20px;/*distancia na direita*/
     padding-left: 20px;/*diatancia na esquerda*/
     transition: color 0.3s ease-in;/*animaçao de mudar de cor*/
@@ -98,7 +98,7 @@ nav{ /*para que as nav's ficassem centralizadas verticalmente*/
 
 .he2escritas:hover{ /*animação desses botões*/
     color: rgb(190, 178, 178);
-    font-size: 16px;
+    font-size: 18px;
 }
 
 /*-----------------------------------------------------------------main--------------------------------------------------------------------------------------------------------*/

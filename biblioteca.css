@@ -92,7 +92,7 @@ body {
   text-decoration: none;
   color: var(--cor-texto);
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 15px;
+  font-size: 17px;
   padding-right: 20px;
   padding-left: 20px;
   transition: color 0.3s ease-in;
@@ -103,7 +103,7 @@ body {
 
 .he2escritas:hover {
   color: rgb(190, 178, 178);
-  font-size: 16px;
+  font-size: 18px;
 }
 
 /*----------------------------------MAIN-------------------------------------------------------------------------------------------*/
