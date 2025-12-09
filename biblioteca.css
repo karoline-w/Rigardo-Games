@@ -212,6 +212,11 @@ p {
     
   }
 
+  nav{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
   .imagemdothelast {
     width: 100%;
 

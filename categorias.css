@@ -279,6 +279,20 @@ strong{ /*valor com promo*/
   .he2escritas {
     font-size: 4vw;
   }
+    nav{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .imgs{
+    width: 100%;
+  }
+
+  .as{
+    width: 80%;
+  }
+  .imgdestaque{
+    width: 100%;
+  }
 
 
   .rg {

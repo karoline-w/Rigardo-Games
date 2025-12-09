@@ -225,6 +225,10 @@ input {
   .header {
     font-size: 2vw;
   }
+    nav{
+    display: flex;
+    flex-wrap: wrap;
+  }
 
   a {
     font-size: 2vw;

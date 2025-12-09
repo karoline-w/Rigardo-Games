@@ -206,6 +206,16 @@ h3{/*nome dos jogos*/
     .he2escritas {
         font-size: 4vw;
     }
+      nav{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .imagensmenores{
+    width: 100%;
+  }
+    .as{
+    width: 80%;
+  }
 
 
     .rg {
