@@ -283,6 +283,7 @@ strong{ /*valor com promo*/
     display: flex;
     flex-wrap: wrap;
   }
+
   .imgs{
     width: 100%;
   }
